@@ -1,7 +1,7 @@
 import React from "react";
 import { HiMenuAlt1, HiOutlineDotsVertical } from "react-icons/hi";
 import { Link } from "react-router-dom";
-
+// import myPDF from "/public/files/resume.pdf";
 const Navbar = () => {
   const menuItems = (
     <>
@@ -24,6 +24,15 @@ const Navbar = () => {
       <li>
         <Link className="font-semibold text-primary" to="/blogs">
           Blogs
+        </Link>
+      </li>
+      <li>
+        <Link
+          className="font-semibold text-primary"
+          to="https://drive.google.com/uc?export=download&id=1HEb_J2V68qBr36U94SIjENyRTUAyA-kI"
+          download
+        >
+          Download Resume
         </Link>
       </li>
     </>

@@ -11,8 +11,14 @@ const Intro = () => {
           <p className="py-4 text-white ">
             Front-end Developer With Experience on HTML,CSS,JavaScript,MongoDB
           </p>
-          <button className="btn btn-glass text-primary font-bold ring-1 ring-primary">
-            Download Resume
+
+          <button className=" btn btn-glass text-primary font-bold ring-1 ring-primary">
+            <a
+              href="https://drive.google.com/uc?export=download&id=1HEb_J2V68qBr36U94SIjENyRTUAyA-kI"
+              download
+            >
+              Download Resume
+            </a>
           </button>
         </div>
         <div className="mx-auto rounded-lg mb-5 lg:mb-0">
