@@ -2,7 +2,7 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <div className="hero  bg-secondary hover:bg-secondary text-primary">
+    <div className="hero bg-secondary hover:bg-secondary text-primary mt-5">
       <div className="hero-content grid grid-cols-1 lg:grid-cols-2 lg:gap-10">
         <div className="py-6">
           <h1 className="text-4xl font-bold uppercase">
