@@ -15,10 +15,10 @@ const Skills = () => {
       <h2 className="text-primary text-4xl font-bold text-center my-8">
         My Skills
       </h2>
-      <div className="bg-secondary flex justify-center items-center w-3/6 mx-auto gap-8 p-4 rounded-lg shadow-md shadow-yellow-500">
+      <div className="bg-secondary flex flex-col lg:flex-row justify-center items-center w-3/6 mx-auto gap-8 p-4 rounded-lg shadow-md shadow-yellow-500">
         <div className="flex flex-col">
           <h2 className="text-white">
-            <span className="text-primary font-bold"> Front-end :</span>{" "}
+            <span className="text-primary font-bold "> Front-end :</span>{" "}
             HTM5,CSS3,JavaScript,ES6,React, React Router,React Bootstrap,React
             Tailwind,JWT.{" "}
           </h2>

@@ -4,15 +4,15 @@ import CEA from "../../projects/Output of A10.png";
 import BCC from "../../projects/Output of A3.png";
 const Projects = () => {
   return (
-    <div className="m-10">
+    <div className="my-24">
       <h2 className="font-bold text-primary text-4xl text-center">
         My Projects
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-0 mt-5">
-        <div className="card glass hover:bg-secondary mx-auto bg-secondary text-white w-80">
-          <div className="rounded-xl glass mx-auto mt-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-5 mx-14">
+        <div className="card glass hover:bg-secondary mx-auto bg-secondary text-white">
+          <div className="rounded-xl glass mx-auto mt-3 w-2/3">
             <figure>
-              <img src={JHC} alt="projects" className="w-60 rounded-md" />
+              <img src={JHC} alt="projects" className="rounded-md" />
             </figure>
           </div>
           <div className="card-body">
@@ -23,19 +23,21 @@ const Projects = () => {
                 different kinds of tools. After ordering,users can see their
                 order list.
               </small>
-              <button className="btn-sm btn-primary rounded-sm font-bold w-full">
-                Live Website
-              </button>
-              <button className="btn-sm btn-primary rounded-sm font-bold w-full">
-                Github
-              </button>
+              <div className="flex gap-2 w-full">
+                <button className="btn-sm btn-primary rounded-sm font-bold h-10 w-2/3">
+                  Live Website
+                </button>
+                <button className="btn-sm btn-primary rounded-sm font-bold h-10 w-2/3">
+                  Explore More
+                </button>
+              </div>
             </div>
           </div>
         </div>
-        <div className="card glass hover:bg-secondary mx-auto bg-secondary text-white w-80">
-          <div className="rounded-xl glass mx-auto mt-3">
+        <div className="card glass hover:bg-secondary mx-auto bg-secondary text-white">
+          <div className="rounded-xl glass mx-auto mt-3 w-2/3">
             <figure>
-              <img src={CEA} alt="projects" className="w-60 rounded-md" />
+              <img src={CEA} alt="projects" className=" rounded-md" />
             </figure>
           </div>
           <div className="card-body">
@@ -46,19 +48,21 @@ const Projects = () => {
                 This is a react application of a independent photographer where
                 users can login and book the photographer schedule.
               </small>
-              <button className="btn-sm btn-primary rounded-sm font-bold w-full">
-                Live Website
-              </button>
-              <button className="btn-sm btn-primary rounded-sm font-bold w-full">
-                Github
-              </button>
+              <div className="flex gap-2 w-full">
+                <button className="btn-sm btn-primary rounded-sm font-bold h-10 w-2/3">
+                  Live Website
+                </button>
+                <button className="btn-sm btn-primary rounded-sm font-bold h-10 w-2/3">
+                  Explore More
+                </button>
+              </div>
             </div>
           </div>
         </div>
-        <div className="card glass hover:bg-secondary mx-auto bg-secondary text-white w-80">
-          <div className="rounded-xl glass mx-auto mt-3">
+        <div className="card glass hover:bg-secondary mx-auto bg-secondary text-white">
+          <div className="rounded-xl glass mx-auto mt-3 w-2/3">
             <figure>
-              <img src={BCC} alt="projects" className="w-60 rounded-md" />
+              <img src={BCC} alt="projects" className="rounded-md" />
             </figure>
           </div>
           <div className="card-body">
@@ -68,12 +72,14 @@ const Projects = () => {
                 This is a react application where users can see the packages and
                 book the convention center for their occation.
               </small>
-              <button className="btn-sm btn-primary rounded-sm font-bold w-full">
-                Live Website
-              </button>
-              <button className="btn-sm btn-primary rounded-sm font-bold w-full">
-                Github
-              </button>
+              <div className="flex gap-2 w-full">
+                <button className="btn-sm btn-primary rounded-sm font-bold h-10 w-2/3">
+                  Live Website
+                </button>
+                <button className="btn-sm btn-primary rounded-sm font-bold h-10 w-2/3">
+                  Explore More
+                </button>
+              </div>
             </div>
           </div>
         </div>
