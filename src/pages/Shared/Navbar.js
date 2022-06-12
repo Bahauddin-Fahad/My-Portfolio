@@ -1,5 +1,5 @@
 import React from "react";
-import { HiMenuAlt1, HiOutlineDotsVertical } from "react-icons/hi";
+import { HiMenuAlt1 } from "react-icons/hi";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   const menuItems = (
@@ -10,8 +10,8 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link className="font-semibold text-primary" to="/services">
-          Services
+        <Link className="font-semibold text-primary" to="/about">
+          About
         </Link>
       </li>
 
@@ -59,14 +59,6 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden lg:flex mx-auto">
         <ul className="menu menu-horizontal p-0">{menuItems}</ul>
-      </div>
-      <div className="navbar-end lg:hidden">
-        <label
-          htmlFor="dashboard-drawer"
-          className="btn btn-primary drawer-button lg:hidden"
-        >
-          <HiOutlineDotsVertical />
-        </label>
       </div>
     </div>
   );

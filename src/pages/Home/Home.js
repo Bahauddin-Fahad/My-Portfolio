@@ -1,7 +1,7 @@
 import React from "react";
-import Projects from "../Projects/Projects";
 import ContactMe from "./ContactMe";
 import Intro from "./Intro";
+import ProjectsHome from "./ProjectsHome";
 import Skills from "./Skills";
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <Intro />
       <Skills />
-      <Projects />
+      <ProjectsHome />
       <ContactMe />
     </div>
   );

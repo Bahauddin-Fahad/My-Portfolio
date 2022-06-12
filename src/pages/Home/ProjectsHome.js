@@ -1,15 +1,14 @@
 import axios from "axios";
 import React from "react";
 import { useQuery } from "react-query";
-import Project from "./Project";
+import Project from "../Projects/Project";
 
-const Projects = () => {
+const ProjectsHome = () => {
   const { data: projects } = useQuery("projects", () =>
     axios.get("projects.json").then((data) => {
       return data.data;
     })
   );
-  // console.log(projects);
   return (
     <div className="my-24">
       <h2 className="font-bold text-primary text-4xl text-center">
@@ -24,4 +23,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsHome;

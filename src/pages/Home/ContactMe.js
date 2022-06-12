@@ -9,9 +9,7 @@ const ContactMe = () => {
         <div className="flex lg:justify-end">
           <div className="card flex-shrink-0 w-full max-w-lg sm:pt-5 lg:pt-0">
             <div className="card-body">
-              <h4 className="text-white text-center text-2xl font-bold">
-                Contact Me
-              </h4>
+              <h4 className="text-white text-2xl font-bold">Contact Me</h4>
               <div className="flex flex-col lg:flex-row gap-2">
                 <div className="form-control lg:w-1/2">
                   <input
@@ -65,7 +63,7 @@ const ContactMe = () => {
             </div>
             <div className="flex items-center gap-2">
               <MdLocationPin className="w-6 h-6 text-primary" />{" "}
-              <h2 className="text-lg">Muradpur,Chhattogram,Bangladesh</h2>
+              <h2 className="text-lg">Muradpur,Chattogram,Bangladesh</h2>
             </div>
           </div>
         </div>

@@ -1,0 +1,29 @@
+[
+  {
+    "_id": 1,
+    "img1": "https://i.ibb.co/qBt6sSD/Output-of-A12.png",
+    "img2": "https://i.ibb.co/5MtV2Pq/Output-of-A12-2.png",
+    "img3": "https://i.ibb.co/F44czP8/Output-of-A12-3.png",
+    "name": "Jack Hammer Corporation",
+    "shortDescription": "This is full stack application where users can login and buy different kinds of tools. After ordering,users can see their order list.",
+    "fullDescription": "This is full stack application where users can login and buy different kinds of tools. After ordering,users can see their order list."
+  },
+  {
+    "_id": 2,
+    "img1": "https://i.ibb.co/HXRY9QR/Output-of-A10.png",
+    "img2": "https://i.ibb.co/5WdqmPk/Output-of-A10-2.png",
+    "img3": "https://i.ibb.co/G5hcQq5/Output-of-A10-3.png",
+    "name": "Create-Eve Art",
+    "shortDescription": "This is a react application of a independent photographer where users can login and book the photographer schedule.",
+    "fullDescription": "This is a react application of a independent photographer where users can login and book the photographer schedule."
+  },
+  {
+    "_id": 3,
+    "img1": "https://i.ibb.co/sgwqM44/Output-of-A3.png",
+    "img2": "https://i.ibb.co/0YGtXc9/Output-of-A3-2.png",
+    "img3": "https://i.ibb.co/mRSPt5L/Output-of-A3-3.png",
+    "name": "Bastrop Convention Center",
+    "shortDescription": "This is a react application where users can see the packages and book the convention center for their occation.",
+    "fullDescription": "This is a react application where users can see the packages and book the convention center for their occation."
+  }
+]
