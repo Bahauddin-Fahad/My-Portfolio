@@ -25,8 +25,8 @@ const Intro = () => {
           </button>
         </div>
         <div className="mx-auto rounded-lg mb-5 lg:mb-0">
-          <div class="avatar">
-            <div class="w-72 rounded-xl">
+          <div className="avatar">
+            <div className="w-72 rounded-xl">
               <img src="https://i.ibb.co/60T1vhf/profile.jpg" alt="" />
             </div>
           </div>
