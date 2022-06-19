@@ -1,14 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { useQuery } from "react-query";
 import Project from "../Projects/Project";
-// import projects from "../../projects.json";
 const ProjectsHome = () => {
-  // const { data: projects } = useQuery("projects", () =>
-  //   axios.get("projects.json").then((data) => {
-  //     return data.data;
-  //   })
-  // );
   const [projects, setProjects] = useState([]);
   useEffect(() => {
     axios.get("projects.json").then((data) => setProjects(data.data));

@@ -1,27 +1,9 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import { useQuery } from "react-query";
+import React from "react";
 import { useParams } from "react-router-dom";
-import Loading from "../Shared/Loading";
+
 import projects from "../../projects.json";
 const ProjectInfo = () => {
   const { projectId } = useParams();
-
-  // const { data: projects, isLoading } = useQuery("projects", () =>
-  //   axios.get("projects.json").then((data) => {
-  //     return data.data;
-  //   })
-  // );
-  // console.log(projects);
-  // console.log(projectId);
-  // if (isLoading) {
-  //   <Loading />;
-  // }
-
-  // const [projects, setProjects] = useState([]);
-  // useEffect(() => {
-  //   axios.get("projects.json").then((data) => setProjects(data.data));
-  // }, []);
 
   const project = projects?.find(
     (project) => project?._id === parseInt(projectId)
