@@ -6,7 +6,6 @@ const ProjectsHome = () => {
   useEffect(() => {
     axios.get("projects.json").then((data) => setProjects(data.data));
   }, []);
-  console.log(projects);
   return (
     <div className="my-24">
       <h2 className="font-bold text-primary text-4xl text-center">

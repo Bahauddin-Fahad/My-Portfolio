@@ -8,7 +8,6 @@ const ProjectInfo = () => {
   const project = projects?.find(
     (project) => project?._id === parseInt(projectId)
   );
-  console.log(project);
   return (
     <div className=" glass bg-secondary pt-10">
       <h2 className="text-3xl font-bold text-white text-center">
