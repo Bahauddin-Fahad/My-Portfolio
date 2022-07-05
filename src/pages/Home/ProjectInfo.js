@@ -39,7 +39,9 @@ const ProjectInfo = () => {
             <p className="py-6 text-white">{project?.fullDescription}</p>
             <div className="w-7/12 flex flex-wrap gap-6 mx-auto justify-center">
               <button className="btn btn-primary font-bold">
-                <a href={project?.liveSite}>Live Website</a>{" "}
+                <a href={project?.liveSite} target="_blank" rel="noreferrer">
+                  Live Website
+                </a>{" "}
               </button>
               <button className="btn btn-primary font-bold">
                 <a href={project?.gitHubClient}>GitHub Client </a>{" "}

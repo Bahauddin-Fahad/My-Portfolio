@@ -17,8 +17,8 @@
     "img2": "https://i.ibb.co/5WdqmPk/Output-of-A10-2.png",
     "img3": "https://i.ibb.co/G5hcQq5/Output-of-A10-3.png",
     "name": "Create-Eve Art",
-    "shortDescription": "This is a react application of a independent photographer where users can login and book the photographer schedule.",
-    "fullDescription": "This is a react application of a independent photographer where users can login and book the photographer schedule.",
+    "shortDescription": "This is a react application for a independent photographer where users can login and book the photographer schedule.",
+    "fullDescription": "This is a react application for a independent photographer where users can login and book the photographer schedule.",
     "liveSite": "https://create-eve-art.web.app",
     "gitHubClient": "https://github.com/Bahauddin-Fahad/Create-Eve-Art"
   },

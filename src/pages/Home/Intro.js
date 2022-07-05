@@ -24,10 +24,10 @@ const Intro = () => {
             </a>
           </button>
         </div>
-        <div className="mx-auto rounded-lg mb-5 lg:mb-0">
+        <div className="mx-auto rounded-xl mb-5 lg:mb-0 ">
           <div className="avatar">
-            <div className="w-72 rounded-xl">
-              <img src="https://i.ibb.co/60T1vhf/profile.jpg" alt="" />
+            <div className="w-full max-w-xs rounded-xl shadow-slate-600 shadow-lg">
+              <img src="https://i.ibb.co/Ypn7m17/portfolio-img.jpg" alt="" />
             </div>
           </div>
         </div>
